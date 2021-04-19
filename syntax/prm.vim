@@ -12,8 +12,8 @@ syntax keyword prmEndSubsection end
 syntax keyword prmBoolean true false True False
 
 " Additional keywords
-syntax keyword prmSymbols x y z 
-      \ gmres cg 
+syntax keyword prmSymbols x y z
+      \ gmres cg
       \ quiet verbose
       \ pressure reflective
       \ constant
@@ -45,7 +45,7 @@ highlight default link prmBoolean Boolean
 highlight default link prmSubsection Structure
 highlight default link prmEndSubsection Structure
 highlight default link prmSubsectionTitle Todo
-highlight default link prmItemTitle Keyword
+highlight default link prmItemTitle Identifier
 
 " Unified color for rhs
 highlight default link prmSymbols Number
@@ -53,5 +53,3 @@ highlight default link prmFilename Number
 highlight default link prmInteger Number
 highlight default link prmFloat Number
 highlight default link prmOperator Number
-
-
